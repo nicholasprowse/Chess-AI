@@ -1,6 +1,6 @@
 # Chess-AI
 
-A concole base application to play chess on. Can be played with 2 human players, or can be played against an AI i have created. The AI uses minimax with
+A console base application to play chess on. Can be played with 2 human players, or can be played against an AI i have created. The AI uses minimax with
 alpha-beta pruning to determine its next move. The AI only searches 3 moves ahead, so it is not a very good AI at the moment. It will take pieces it can, protect
 pieces if it can, but it doesn't do much more than that so it's fairly easy to beat. It is written in python and uses the curses library to draw the GUI into the 
 terminal. In the future I plan to improve this using techniques such as
